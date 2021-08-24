@@ -1,0 +1,6 @@
+{
+  "horusecCliTimeoutInSecondsAnalysis": 1000,
+  "horusecCliTimeoutInSecondsRequest": 300,
+  "horusecCliRiskAcceptHashes": [],
+  "horusecCliFalsePositiveHashes": []
+}
