@@ -15,4 +15,4 @@ jobs:
         HORUSEC_CLI_HORUSEC_API_URI: ${{ secrets.HORUSEC_CLI_HORUSEC_API_URI }}
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
-        horusec start -p="./" -e="true"     
+        horusec start -p="./" -e="true" -G="true"
